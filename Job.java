@@ -1,4 +1,9 @@
-public class Job implements Runnable { 
+/**
+ * The Job class represents a task to be executed by a worker thread.
+ * It contains a job number to identify the specific job and implements
+ * the Runnable interface, allowing it to be executed by a thread.
+ */
+public class Job implements Runnable {
   private int jobNumber;
 
   Job (int jobNumber) {
